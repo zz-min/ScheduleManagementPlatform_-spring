@@ -3,10 +3,11 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
-	
-	
+
+
 	<display-name>mavenTemplate</display-name>
 	<welcome-file-list>
+		<welcome-file>index</welcome-file>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
@@ -25,11 +26,11 @@
 	</context-param>
 	<context-param>
 		<param-name>db_userid</param-name>
-		<param-value>system</param-value>
+		<param-value>web</param-value>
 	</context-param>
 	<context-param>
 		<param-name>db_passwd</param-name>
-		<param-value>oracle</param-value>
+		<param-value>oradb</param-value>
 	</context-param>
 
 	<servlet-mapping>

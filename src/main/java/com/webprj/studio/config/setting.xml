@@ -16,4 +16,16 @@
 		<!-- console.setExam(exam); -->
 		<property name="exam" ref="exam" />
 	</bean>
+	
+	<!-- ddddddddddddddddddddddddddddddddddddddddddd -->
+	<!-- <context:component-scan base-package="com.webprj.studio.dao, com.webprj.studio.service, com.webprj.studio.controller" /> 
+	<context:property-placeholder location="classpath:com/webprj/studio/config/db.properties"/>-->
+	
+	<!-- <bean id="rsvDao" class="com.weblab.booking.dao.ReservationJdbcDao">
+		<constructor-arg index ="0" value="${db.driverName}" />
+		<constructor-arg index ="1" value="${db.url}" />
+		<constructor-arg index ="2" value="${db.userName}" />
+		<constructor-arg index ="3" value="${db.password}" />
+	</bean> -->
+	
 </beans>
