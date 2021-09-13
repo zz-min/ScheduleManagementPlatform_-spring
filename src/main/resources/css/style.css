@@ -39,10 +39,8 @@ span{
 }
 
 .main {
-	height: 500px;
 	box-sizing: border-box;
 	padding: 0.5%;
-	background: skyblue;
 }
 
 .calendar__day {
